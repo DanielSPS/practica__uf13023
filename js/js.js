@@ -1,0 +1,1 @@
+document.write('Esto es un texto echo con javascript'); 

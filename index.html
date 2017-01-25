@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<!-- creado por Daniel Sarmiento Paszor el dia 23-01-17 para la prueba parcial del curso, es el primer ejercicio en html5. -->
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="prueba de evaluación">
+		<meta name="keywords" content="HTML, prueba, parcial, módulo">
+		<meta name="author" content="Daniel Sarmiento Paszor">
+		<meta name="robots" content="index">
+		<script src="js/js.js"></script>
+		<title>Prueba de evaluación</title>
+	</head>
+	<body>
+		<header id="1">
+			<h1>Prueba de evaluación</h1>
+		</header>
+		<nav>
+			<a href="#s1">Sección 1</a>
+			<a href="#s2">Sección 2</a>
+			<a href="#s3">Seccion 3</a>
+			<a href="#s4">Seccion 4</a>
+		</nav>
+		<section>
+			<h2 id="s1"><u>Sección 1</u></h2>
+			<hr>
+			<h3>Textos de Relleno</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione repudiandae deserunt vel, animi iste ducimus, voluptas ex explicabo unde incidunt optio et qui rem consequuntur voluptatum repellendus magni, consequatur doloribus.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nisi consectetur, quis numquam quo excepturi nostrum, molestiae et tenetur expedita, quas deserunt cum illo debitis soluta! Ea ad iure illo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta alias quae a modi, accusamus possimus hic, nesciunt quia distinctio, perferendis aperiam odit minima veritatis iusto esse enim incidunt asperiores non!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error rerum fugiat, assumenda, itaque esse ipsam explicabo qui earum. Doloremque autem adipisci enim obcaecati maiores corrupti! Minima facere possimus molestias natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, mollitia animi consectetur est ullam, voluptates aliquam laboriosam blanditiis accusantium quasi veniam hic nihil ad illum temporibus dolorum eveniet accusamus aspernatur?</p>
+			<!-- texto de relleno en varios párrafos -->
+
+			<h3 id="3">Etiquetas de formato básico</h3>
+			<p>
+				<sup>con esta etiqueta se puede definir un texto determminado como un superíndice,mostrado en el navegador por encima de la linea de texto por defecto y con un menor tamaño de fuente.</sup><br>
+				<sub>con esta etiqueta se puede definir un texto determinado como un subíndice, que se mostrará en el navegador por debajo de la linea de texto normal que esté definido en el documento html.</sub><br>
+				<strong>con esta etiqueta e puede resaltar una parte del texto que consideremos que es mas importante.</strong><br>
+				<i>con esta etiqueta se puede establecer una parte del texto en cursiva.</i>
+			</p>
+			<!-- varias etiquetas de formato básico: negrita, itálica, subíndice, superíndice. -->
+
+			<h3>Lista ordenada</h3>
+			<ol start="1" type="1">
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JvaScript</li>
+				<li>PHP</li>
+			</ol>
+			<!-- Una lista ordenada -->
+
+			<h3>lista desordenada</h3>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JvaScript</li>
+				<li>PHP</li>
+			</ul>
+			<!-- Un lista desordenada -->
+
+			<h3>Tabla simple</h3>
+			<table>
+				<tr>
+					<td><strong>Curso</strong></td>
+					<td><strong>Horas</strong></td>
+					<td><strong>Horario</strong></td>
+				</tr>
+				<tr>
+					<td>CSS</td>
+					<td>20</td>
+					<td>9:00 - 11:00</td>
+				</tr>
+				<tr>
+					<td>HTML</td>
+					<td>20</td>
+					<td>11:00 - 13:00</td>
+				</tr>
+				<tr>
+					<td>Sublime text</td>
+					<td>60</td>
+					<td>13:00 - 15:00</td>
+				</tr>
+			</table>
+			<!-- Tabla simple -->
+
+			<p><a href="#1">Link a la cabecera</a><br>
+			<a href="#2">Link a pie de página</a></p>
+		</section>
+		<section>
+			<h2 id="s2"><u>Sección 2</u></h2>
+			<hr>
+			<h3>Direcciones de contacto</h3>
+			<a href="mailto:DanielSarmientoPaszor@email.com"><img src="images/3.png" alt="contacto de gmail"></a>
+			<p>contacte conmigo en gmail pinchando en la imagen</p><br>
+			<a href="https://www.linkedin.com/in/danielsarmientopaszor?trk=nav_responsive_tab_profile_pic"><img src="images/2.png" alt="contacto de linkedin"></a>
+			<p>contacte conmigo en LinkedIn pinchando en la imagen</p>
+			<!-- Enlazar direccion de e-mail y linkedin, no he puesto red social porque no uso.-->
+
+			<h3>Enlace a un contenido interno</h3>
+			<p><a href="#3">Link a etiquetas de formato básico</a></p>
+			<!-- Hacer un enlace interno a un contenido de la propia página. -->
+
+			<h3>3 imagenes</h3>
+			<img src="images/1.jpg" alt="imagen random numero 1">
+			<img src="images/2.jpg" alt="imagen random numero 2">
+			<img src="images/3.jpg" alt="imagen random numero 3">
+			<!-- incluir varias imágenes, al menos 3 -->
+			<h3>Mapa de google maps</h3>
+			<p>Dirección de P&S Global en google maps</p>
+			<img src="images/1.jpeg" alt="mapa" usemap="#mapafiguras">
+			<map name="mapafiguras">
+				<area target="_blank" title="circulo1" alt="circulo1" href="images/1.jpeg" shape="poly" coords="559,324,559,308,623,309,624,325">
+				<area target="_blank" title="circulo2" alt="cicrculo2" href="images/1.jpeg" shape="poly" coords="465,311,451,316,461,328,491,332,525,329,534,318,513,305,490,303">
+				<area target="_blank" title="circulo3" alt="circulo3" href="images/1.jpeg" shape="poly" coords="356,310,384,304,413,306,431,319,412,331,379,331,353,324,349,320">
+				<area target="_blank" title="circulo4" alt="circulo4" href="images/1.jpeg" shape="poly" coords="239,311,229,319,243,332,275,334,306,330,319,321,300,308,265,306">
+				<area target="_blank" title="circulo5" alt="circulo5" href="images/1.jpeg" shape="poly" coords="123,315,143,309,168,306,195,310,213,319,203,326,176,333,146,333,125,326">
+				<area target="_blank" title="circulo6" alt="circulo6" href="images/1.jpeg" shape="poly" coords="29,313,52,313,75,313,103,321,88,333,64,337,40,335,16,328,16,318">
+				<area target="_blank" title="circulo7" alt="circulo7" href="images/1.jpeg" shape="poly" coords="446,217,438,232,457,246,504,252,534,243,542,224,518,209,481,207" >
+				<area target="_blank" title="circulo8" alt="circulo8" href="images/1.jpeg" shape="poly" coords="146,213,117,222,119,238,155,251,202,252,235,230,209,213">
+				<area target="_blank" title="circulo9" alt="circulo9" href="images/1.jpeg" shape="poly" coords="270,132,250,147,254,168,287,184,343,184,380,168,384,148,366,134,334,124,299,124">
+				<area target="_blank" title="circulo10" alt="circulo10" href="images/1.jpeg" shape="poly" coords="248,39,276,18,315,11,361,17,391,42,385,65,361,78,318,87,273,80,245,57">
+			</map>
+			<!-- mapa de imagen con 10 enlaces, he usado el atributo target para mayor accesibilidad abriendose en otra ventana -->
+
+			<p><a href="#1">Link a la cabecera</a><br>
+			<a href="#2">Link a pie de página</a></p>
+		</section>
+		<section>
+			<h2 id="s3"><u>Sección 3</u></h2>
+			<hr>
+			<h3>Sonido y video</h3>
+			<div>
+				<p>Audio</p>
+				<audio controls id="audio">
+  				<source src="../multimedia/soaring_spirit.mp3" type="audio/mp3">
+  				<source src="../multimedia/soaring_spirit.ogg" type="audio/ogg">
+				<p>Tu navegador no es compatible con etiquetas html5 cambie de navegador o<a href="multimedia/soaring_spirit.mp3"> pinche aquí para descargar el audio.</a></p>
+				</audio>
+			</div>
+			<!-- el audio: utilizando las etiquetas html 5 safari no lo reproduce, y lo sustituyo por un link de descarga -->
+
+			<div>
+				<p>Video</p>		
+				<video id="video" class="video-js" controls preload="auto">
+    			<source src="../multimedia/developer_stories.mp4" type='video/mp4'>
+    			<source src="../multimedia/developer_stories.webm" type='video/webm'>
+    			<source src="../multimedia/developer_stories.ogv" type='video/ogv'>
+      			<p>Tu navegador no es compatible con etiquetas html cambie de navegador o<a href="multimedia/developer_stories.mp4" target="_blank">pinche aquí para descargar el video-</a></p>
+
+    			</video>
+    		</div>
+			<!-- el video: utilizando las etiquetas html 5 safari no lo reproduce, y lo sustituyo por un link de descarga -->
+
+			<p><a href="#1">Link a la cabecera</a><br>
+			<a href="#2">Link a pie de página</a></p>
+		</section>
+		<section>
+      		<h2 id="s4"><u>Seccion 4</u></h2>
+      		<hr>
+      		<h3>Mapa de google</h3>
+      		<p>Dirección de P&S Global en google maps</p>
+      		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932.373104970263!2d-2.918795684869949!3d42.69581997916582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4f904216dba469%3A0xbdbe69d04cbddb88!2sP%26S+Global+Miranda%2C+S.L.!5e0!3m2!1ses!2ses!4v1485173885886" width="400" height="300" style="border:0" allowfullscreen></iframe>
+			<!-- mapa de google -->
+
+      		<h3>descarga de fichero pdf</h3>
+    		<p><a href="pdf/doc.pdf" download><img src="images/4.png" alt="Descarga del documento pdf"></a></p>
+    		<p>pinche en la imagen para descargar el documento</p>
+			<!-- documento pdf  -->
+			
+			<h3>Javascript</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ipsa saepe minima numquam corporis praesentium assumenda laborum quas voluptas error voluptates quaerat perspiciatis, similique pariatur, ipsum iste ab, dicta facilis?</p>
+			<noscript>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A porro nam dolorem sed fuga sit, distinctio beatae, architecto, eveniet hic quas corrupti mollitia asperiores! Repellat, rerum ipsam cupiditate aperiam necessitatibus.</p>
+			</noscript>
+			<!-- he puesto una etiqueta noscript para que salga en los navegadores que no soporten javasript para mejorar la accesibilidad-->
+
+			<p><a href="#1">Link a la cabecera</a><br>
+			<a href="#2">Link a pie de página</a></p>
+    	</section>
+		<footer id="2"><p>Pie de pagina. Todos los derechos reservados &copy; Daniel Sarmiento paszor</p></footer>
+	</body>
+</html>
